@@ -9,8 +9,30 @@
 /* Begin PBXBuildFile section */
 		85B4640F272E9A670007255C /* mad_autumn_2021_secondApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B4640E272E9A670007255C /* mad_autumn_2021_secondApp.swift */; };
 		85B46411272E9A670007255C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B46410272E9A670007255C /* ContentView.swift */; };
-		85B46413272E9A680007255C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85B46412272E9A680007255C /* Assets.xcassets */; };
 		85B46416272E9A680007255C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85B46415272E9A680007255C /* Preview Assets.xcassets */; };
+		85B46439272E9AB10007255C /* SignupScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B4641F272E9AB00007255C /* SignupScreen.swift */; };
+		85B4643A272E9AB10007255C /* SignupScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B46420272E9AB00007255C /* SignupScreenModel.swift */; };
+		85B4643B272E9AB10007255C /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B46422272E9AB00007255C /* StartScreen.swift */; };
+		85B4643C272E9AB10007255C /* StartScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B46423272E9AB00007255C /* StartScreenModel.swift */; };
+		85B4643D272E9AB10007255C /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B46425272E9AB00007255C /* ProfileScreen.swift */; };
+		85B4643E272E9AB10007255C /* ProfileScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B46426272E9AB00007255C /* ProfileScreenModel.swift */; };
+		85B4643F272E9AB10007255C /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B46428272E9AB00007255C /* LoginScreen.swift */; };
+		85B46440272E9AB10007255C /* LoginScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B46429272E9AB00007255C /* LoginScreenModel.swift */; };
+		85B46441272E9AB10007255C /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B4642B272E9AB10007255C /* NetworkService.swift */; };
+		85B46442272E9AB10007255C /* TFStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B4642D272E9AB10007255C /* TFStyles.swift */; };
+		85B46443272E9AB10007255C /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B4642E272E9AB10007255C /* Fonts.swift */; };
+		85B46444272E9AB10007255C /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B4642F272E9AB10007255C /* ButtonStyles.swift */; };
+		85B46445272E9AB10007255C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B46430272E9AB10007255C /* Colors.swift */; };
+		85B46466272E9B880007255C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 85B46465272E9B880007255C /* Alamofire */; };
+		85B46486272EA09A0007255C /* PureSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 85B46485272EA09A0007255C /* PureSwiftUI */; };
+		85B46489272EA0BF0007255C /* DynamicColor in Frameworks */ = {isa = PBXBuildFile; productRef = 85B46488272EA0BF0007255C /* DynamicColor */; };
+		85B4648C272EA13D0007255C /* MediaCore in Frameworks */ = {isa = PBXBuildFile; productRef = 85B4648B272EA13D0007255C /* MediaCore */; };
+		85B4648E272EA13D0007255C /* MediaSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 85B4648D272EA13D0007255C /* MediaSwiftUI */; };
+		85B46491272EA1450007255C /* AlamofireNetworkActivityLogger in Frameworks */ = {isa = PBXBuildFile; productRef = 85B46490272EA1450007255C /* AlamofireNetworkActivityLogger */; };
+		85B46494272EA16F0007255C /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 85B46493272EA16F0007255C /* SwiftDate */; };
+		85B46495272EAABF0007255C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85B46412272E9A680007255C /* Assets.xcassets */; };
+		85B46499272EAEBC0007255C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B4641C272E9AB00007255C /* Launch Screen.storyboard */; };
+		85B4649C272EAEF70007255C /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 85B4649B272EAEF70007255C /* SwiftUIX */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +41,26 @@
 		85B46410272E9A670007255C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		85B46412272E9A680007255C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85B46415272E9A680007255C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85B4641C272E9AB00007255C /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		85B4641F272E9AB00007255C /* SignupScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupScreen.swift; sourceTree = "<group>"; };
+		85B46420272E9AB00007255C /* SignupScreenModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupScreenModel.swift; sourceTree = "<group>"; };
+		85B46422272E9AB00007255C /* StartScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
+		85B46423272E9AB00007255C /* StartScreenModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScreenModel.swift; sourceTree = "<group>"; };
+		85B46425272E9AB00007255C /* ProfileScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		85B46426272E9AB00007255C /* ProfileScreenModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileScreenModel.swift; sourceTree = "<group>"; };
+		85B46428272E9AB00007255C /* LoginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		85B46429272E9AB00007255C /* LoginScreenModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreenModel.swift; sourceTree = "<group>"; };
+		85B4642B272E9AB10007255C /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		85B4642D272E9AB10007255C /* TFStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TFStyles.swift; sourceTree = "<group>"; };
+		85B4642E272E9AB10007255C /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		85B4642F272E9AB10007255C /* ButtonStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		85B46430272E9AB10007255C /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		85B46432272E9AB10007255C /* BalooPaaji2-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BalooPaaji2-Bold.ttf"; sourceTree = "<group>"; };
+		85B46433272E9AB10007255C /* BalooPaaji2-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BalooPaaji2-Regular.ttf"; sourceTree = "<group>"; };
+		85B46435272E9AB10007255C /* BalooPaaji2-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BalooPaaji2-Medium.ttf"; sourceTree = "<group>"; };
+		85B46436272E9AB10007255C /* BalooPaaji2-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BalooPaaji2-SemiBold.ttf"; sourceTree = "<group>"; };
+		85B46437272E9AB10007255C /* BalooPaaji2-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BalooPaaji2-ExtraBold.ttf"; sourceTree = "<group>"; };
+		85B4644C272E9AC40007255C /* mad-autumn-2021-second-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "mad-autumn-2021-second-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +68,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85B46489272EA0BF0007255C /* DynamicColor in Frameworks */,
+				85B46466272E9B880007255C /* Alamofire in Frameworks */,
+				85B4648C272EA13D0007255C /* MediaCore in Frameworks */,
+				85B4649C272EAEF70007255C /* SwiftUIX in Frameworks */,
+				85B46491272EA1450007255C /* AlamofireNetworkActivityLogger in Frameworks */,
+				85B46494272EA16F0007255C /* SwiftDate in Frameworks */,
+				85B4648E272EA13D0007255C /* MediaSwiftUI in Frameworks */,
+				85B46486272EA09A0007255C /* PureSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,8 +85,10 @@
 		85B46402272E9A670007255C = {
 			isa = PBXGroup;
 			children = (
+				85B46431272E9AB10007255C /* fonts */,
 				85B4640D272E9A670007255C /* mad_autumn_2021_second */,
 				85B4640C272E9A670007255C /* Products */,
+				85B4649A272EAEF70007255C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +103,11 @@
 		85B4640D272E9A670007255C /* mad_autumn_2021_second */ = {
 			isa = PBXGroup;
 			children = (
+				85B4644C272E9AC40007255C /* mad-autumn-2021-second-Info.plist */,
+				85B4642C272E9AB10007255C /* Common */,
+				85B4641C272E9AB00007255C /* Launch Screen.storyboard */,
+				85B4641D272E9AB00007255C /* Screens */,
+				85B4642A272E9AB10007255C /* Services */,
 				85B4640E272E9A670007255C /* mad_autumn_2021_secondApp.swift */,
 				85B46410272E9A670007255C /* ContentView.swift */,
 				85B46412272E9A680007255C /* Assets.xcassets */,
@@ -65,6 +122,91 @@
 				85B46415272E9A680007255C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		85B4641D272E9AB00007255C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				85B4641E272E9AB00007255C /* SignUp */,
+				85B46421272E9AB00007255C /* Start */,
+				85B46424272E9AB00007255C /* Profile */,
+				85B46427272E9AB00007255C /* Login */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		85B4641E272E9AB00007255C /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				85B4641F272E9AB00007255C /* SignupScreen.swift */,
+				85B46420272E9AB00007255C /* SignupScreenModel.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		85B46421272E9AB00007255C /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				85B46422272E9AB00007255C /* StartScreen.swift */,
+				85B46423272E9AB00007255C /* StartScreenModel.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		85B46424272E9AB00007255C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				85B46425272E9AB00007255C /* ProfileScreen.swift */,
+				85B46426272E9AB00007255C /* ProfileScreenModel.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		85B46427272E9AB00007255C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				85B46428272E9AB00007255C /* LoginScreen.swift */,
+				85B46429272E9AB00007255C /* LoginScreenModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		85B4642A272E9AB10007255C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				85B4642B272E9AB10007255C /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		85B4642C272E9AB10007255C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				85B4642D272E9AB10007255C /* TFStyles.swift */,
+				85B4642E272E9AB10007255C /* Fonts.swift */,
+				85B4642F272E9AB10007255C /* ButtonStyles.swift */,
+				85B46430272E9AB10007255C /* Colors.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		85B46431272E9AB10007255C /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				85B46432272E9AB10007255C /* BalooPaaji2-Bold.ttf */,
+				85B46433272E9AB10007255C /* BalooPaaji2-Regular.ttf */,
+				85B46435272E9AB10007255C /* BalooPaaji2-Medium.ttf */,
+				85B46436272E9AB10007255C /* BalooPaaji2-SemiBold.ttf */,
+				85B46437272E9AB10007255C /* BalooPaaji2-ExtraBold.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		85B4649A272EAEF70007255C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +225,16 @@
 			dependencies = (
 			);
 			name = mad_autumn_2021_second;
+			packageProductDependencies = (
+				85B46465272E9B880007255C /* Alamofire */,
+				85B46485272EA09A0007255C /* PureSwiftUI */,
+				85B46488272EA0BF0007255C /* DynamicColor */,
+				85B4648B272EA13D0007255C /* MediaCore */,
+				85B4648D272EA13D0007255C /* MediaSwiftUI */,
+				85B46490272EA1450007255C /* AlamofireNetworkActivityLogger */,
+				85B46493272EA16F0007255C /* SwiftDate */,
+				85B4649B272EAEF70007255C /* SwiftUIX */,
+			);
 			productName = mad_autumn_2021_second;
 			productReference = 85B4640B272E9A670007255C /* mad_autumn_2021_second.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +263,15 @@
 				Base,
 			);
 			mainGroup = 85B46402272E9A670007255C;
+			packageReferences = (
+				85B46464272E9B880007255C /* XCRemoteSwiftPackageReference "Alamofire" */,
+				85B46481272EA0660007255C /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+				85B46484272EA09A0007255C /* XCRemoteSwiftPackageReference "pure-swift-ui" */,
+				85B46487272EA0BF0007255C /* XCRemoteSwiftPackageReference "DynamicColor" */,
+				85B4648A272EA13D0007255C /* XCRemoteSwiftPackageReference "Media" */,
+				85B4648F272EA1450007255C /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityLogger" */,
+				85B46492272EA16E0007255C /* XCRemoteSwiftPackageReference "SwiftDate" */,
+			);
 			productRefGroup = 85B4640C272E9A670007255C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +286,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85B46499272EAEBC0007255C /* Launch Screen.storyboard in Resources */,
+				85B46495272EAABF0007255C /* Assets.xcassets in Resources */,
 				85B46416272E9A680007255C /* Preview Assets.xcassets in Resources */,
-				85B46413272E9A680007255C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +299,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85B46441272E9AB10007255C /* NetworkService.swift in Sources */,
+				85B46445272E9AB10007255C /* Colors.swift in Sources */,
+				85B4643C272E9AB10007255C /* StartScreenModel.swift in Sources */,
+				85B46443272E9AB10007255C /* Fonts.swift in Sources */,
+				85B4643D272E9AB10007255C /* ProfileScreen.swift in Sources */,
+				85B46442272E9AB10007255C /* TFStyles.swift in Sources */,
+				85B4643F272E9AB10007255C /* LoginScreen.swift in Sources */,
 				85B46411272E9A670007255C /* ContentView.swift in Sources */,
+				85B4643A272E9AB10007255C /* SignupScreenModel.swift in Sources */,
+				85B4643B272E9AB10007255C /* StartScreen.swift in Sources */,
+				85B4643E272E9AB10007255C /* ProfileScreenModel.swift in Sources */,
+				85B46440272E9AB10007255C /* LoginScreenModel.swift in Sources */,
+				85B46444272E9AB10007255C /* ButtonStyles.swift in Sources */,
+				85B46439272E9AB10007255C /* SignupScreen.swift in Sources */,
 				85B4640F272E9A670007255C /* mad_autumn_2021_secondApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,11 +444,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"mad_autumn_2021_second/Preview Content\"";
+				DEVELOPMENT_TEAM = 99C2LB4W93;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "mad-autumn-2021-second-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ScareMe;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -298,11 +477,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"mad_autumn_2021_second/Preview Content\"";
+				DEVELOPMENT_TEAM = 99C2LB4W93;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "mad-autumn-2021-second-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ScareMe;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -341,6 +524,108 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		85B46464272E9B880007255C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		85B46481272EA0660007255C /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.9;
+			};
+		};
+		85B46484272EA09A0007255C /* XCRemoteSwiftPackageReference "pure-swift-ui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CodeSlicing/pure-swift-ui.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		85B46487272EA0BF0007255C /* XCRemoteSwiftPackageReference "DynamicColor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yannickl/DynamicColor.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		85B4648A272EA13D0007255C /* XCRemoteSwiftPackageReference "Media" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/crelies/Media.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		85B4648F272EA1450007255C /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityLogger" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/konkab/AlamofireNetworkActivityLogger.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		85B46492272EA16E0007255C /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftDate";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 6.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		85B46465272E9B880007255C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85B46464272E9B880007255C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		85B46485272EA09A0007255C /* PureSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85B46484272EA09A0007255C /* XCRemoteSwiftPackageReference "pure-swift-ui" */;
+			productName = PureSwiftUI;
+		};
+		85B46488272EA0BF0007255C /* DynamicColor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85B46487272EA0BF0007255C /* XCRemoteSwiftPackageReference "DynamicColor" */;
+			productName = DynamicColor;
+		};
+		85B4648B272EA13D0007255C /* MediaCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85B4648A272EA13D0007255C /* XCRemoteSwiftPackageReference "Media" */;
+			productName = MediaCore;
+		};
+		85B4648D272EA13D0007255C /* MediaSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85B4648A272EA13D0007255C /* XCRemoteSwiftPackageReference "Media" */;
+			productName = MediaSwiftUI;
+		};
+		85B46490272EA1450007255C /* AlamofireNetworkActivityLogger */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85B4648F272EA1450007255C /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityLogger" */;
+			productName = AlamofireNetworkActivityLogger;
+		};
+		85B46493272EA16F0007255C /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85B46492272EA16E0007255C /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+		85B4649B272EAEF70007255C /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85B46481272EA0660007255C /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 85B46403272E9A670007255C /* Project object */;
 }
